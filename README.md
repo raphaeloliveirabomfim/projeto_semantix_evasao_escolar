@@ -42,7 +42,7 @@ A evasão escolar no Ensino Médio brasileiro atinge taxas alarmantes:
 
 ---
 
-## 📊 Fontes de Dados
+## Fontes de Dados
 
 Os dados utilizados neste projeto são **sintéticos**, porém baseados em estatísticas reais da educação brasileira, incluindo:
 
@@ -89,8 +89,6 @@ Vespertino: 10.2% de evasão
 Matutino: 8.3% de evasão
 
 ### Matriz de Correlação
-
-![Matriz de Correlação](reports/figures/correlation_matrix.png)
 
 **Variáveis mais correlacionadas com evasão:**
 1. Distorção idade-série (0.52)
@@ -141,10 +139,6 @@ Devido ao desbalanceamento natural da variável alvo, foram aplicadas técnicas 
 ### Matriz de Confusão - Random Forest
 Real Não [2605 67]
 Sim [ 305 23]
-
-### Curva ROC
-
-![Curva ROC](reports/figures/roc_curve.png)
 
 ### Feature Importance
 
